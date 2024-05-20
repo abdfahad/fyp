@@ -95,22 +95,22 @@ class makePrediction(View):
         with open('predictions\\disease_info_2.json', 'r') as file:
             disease_info = json.load(file)
 
-        diseases = list(disease_info.keys())
-
-        training_data = diseases
-        labels = [json.dumps(disease_info[d]) for d in diseases]
-
-
-        model = make_pipeline(TfidfVectorizer(), MultinomialNB())
-        model.fit(training_data, labels)
-
         def get_disease_information(disease_name):
-            predicted_disease = model.predict([disease_name])[0]
-            return json.loads(predicted_disease)
+            # Check if the disease name exists in the loaded JSON data
+            if disease_name in disease_info:
+                return disease_info[disease_name]
+            else:
+                 return JsonResponse({
+            'preventive_measures': [],
+            'treatment_options': [],
+            'links': [],
+            'prediction': predicted_class_name,
+            'confidence': round(float(confidence) * 100, 2) ,
+            'products': []
+            })
 
-        # Example usage:
-        print(predicted_class_name)
         result = get_disease_information(predicted_class_name)
+        print(result)
 
         if isinstance(result, dict):
             preventive_measures = result.get("Preventive Measures", [])
