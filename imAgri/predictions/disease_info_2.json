@@ -1,0 +1,124 @@
+{
+  "Early Blight": {
+    "Preventive Measures": [
+      "Prune or stake plants to improve air circulation and reduce fungal problems.",
+      "Make sure to disinfect your pruning shears (one part bleach to 4 parts water) after each cut.",
+      "Keep the soil under plants clean and free of garden debris. Add a layer of organic compost to prevent spores from splashing back up onto vegetation.",
+      "Drip irrigation and soaker hoses can be used to help keep the foliage dry."
+    ],
+    "Treatment Options": [
+      "For best control, apply copper-based fungicides early, two weeks before disease normally appears or when weather forecasts predict a long period of wet weather. Alternatively, begin treatment when the disease first appears, and repeat every 7-10 days for as long as needed.",
+      "Bonide® Garden Dust containing copper and pyrethrins is a safe, one-step control for many insect attacks and fungal problems. Cover both the tops and undersides of leaves with a thin uniform film or dust. Repeat applications every 7-10 days, as needed.",
+      "SERENADE Garden is a broad-spectrum, preventative bio-fungicide recommended for the control or suppression of many important plant diseases. Treat prior to foliar disease development or at the first sign of infection. Repeat at 7-day intervals or as needed.",
+      "Remove and destroy all garden debris after harvest and practice crop rotation the following year.",
+      "Burn or bag infected plant parts. Do NOT compost."
+    ],
+    "Source": "University of Minnesota Extension, Planet Natural Research Center",
+    "Url": [
+      "https://extension.umn.edu/disease-management/early-blight-tomato-and-potato",
+      "https://www.planetnatural.com/pest-problem-solver/plant-disease/early-blight/"
+    ]
+  },
+  "Late Blight": {
+    "Preventive Measures": [
+      "Plant resistant cultivars when available.",
+      "Remove volunteers from the garden prior to planting and space plants far enough apart to allow for plenty of air circulation.",
+      "Water in the early morning hours, or use soaker hoses, to give plants time to dry out during the day — avoid overhead irrigation.",
+      "Destroy all tomato and potato debris after harvest (see Fall Garden Cleanup)."
+    ],
+    "Treatment Options": [
+      "If symptoms are observed, treat plants with one of the following fungicides:",
+      "Apply a copper-based fungicide (2 oz/ gallon of water) every 7 days or less, following heavy rain or when the amount of disease is increasing rapidly. If possible, time applications so that at least 12 hours of dry weather follows application.",
+      "Organocide® Plant Doctor, a foliar spray, will work through the entire plant to prevent and attack fungal problems. Mix 2 tsp/ gallon of water and spray at transplant or when direct seeded crops are at 2-4 true leaf, then at 1-2 week intervals as required to control disease.",
+      "Safely treat fungal problems with SERENADE Garden, a broad-spectrum bio-fungicide using Bacillus subtilis. Completely non-toxic to honey bees and beneficial insects.",
+      "Monterey® All Natural Disease Control is a ready-to-use blend of naturally occurring ingredients that control most plant foliar diseases."
+    ],
+    "Source": "University of Minnesota Extension, Planet Natural Research Center",
+    "Url": [
+      "https://extension.umn.edu/disease-management/late-blight",
+      "https://www.planetnatural.com/pest-problem-solver/plant-disease/late-blight/"
+    ]
+  },
+  "Tomato Leaf-Mold": {
+    "Preventive Measures": [
+      "Upon noticing the infected areas, let the plants air out and dry. In a greenhouse, expose them to dry air conditions.",
+      "If cultivated outdoors, water in the early morning hours or use drip irrigation to keep leaves dry."
+    ],
+    "Treatment Options": [
+      "Treat with fungicidal sprays, covering all parts of the plant above ground, especially the underside of leaves. Calcium chloride sprays are recommended.",
+      "Organic fungicides and natural remedy recipes like apple-cider and vinegar mix, corn and garlic spray, and milk-based spray can also be used."
+    ],
+    "Source": "University of Minnesota Extension, GARDENING CHANNEL",
+    "Url": [
+      "https://extension.umn.edu/disease-management/tomato-leaf-mold#using-fungicides-2982863",
+      "https://www.gardeningchannel.com/tomato-diseases-how-to-fight-leaf-mold/"
+    ]
+  },
+  "Northern Corn Leaf Blight": {
+    "Treatment Options": [
+      "Control of this disease is often focused on management and prevention.",
+      "First, choose corn varieties or hybrids that are resistant or at least have moderate resistance to northern corn leaf blight.",
+      "When you grow corn, make sure it does not stay wet for long periods of time.",
+      "The fungus that causes this infection needs between six and 18 hours of leaf wetness to develop.",
+      "Plant corn with enough space for airflow and water in the morning so leaves can dry throughout the day.",
+      "The fungus overwinters in plant material, so it is also important to manage infected plants.",
+      "Tilling the corn into the soil is one strategy, but with a small garden it may make more sense to just remove and destroy the affected plants.",
+      "Treating northern corn leaf blight involves using fungicides. For most home gardeners, this step isn’t needed, but if you have a bad infection, you may want to try this chemical treatment.",
+      "The infection usually begins around the time of silking, and this is when the fungicide should be applied."
+    ],
+    "Preventive Measures": [
+      "Choose corn varieties or hybrids that are resistant or have moderate resistance to northern corn leaf blight.",
+      "Ensure that corn does not stay wet for long periods of time.",
+      "Provide enough space for airflow when planting corn.",
+      "Water corn in the morning to allow leaves to dry throughout the day.",
+      "Manage and remove infected plants, especially during the overwintering period.",
+      "Consider tilling infected corn into the soil for management.",
+      "Apply fungicides preventively, especially around the time of silking."
+    ],
+    "Source": "gardeningknowhow",
+    "Url": [
+      "https://www.gardeningknowhow.com/edible/vegetables/corn/northern-corn-leaf-blight-control.html"
+    ]
+  },
+  "Common rust Corn": {
+    "Treatment Options": [
+      "The application of fungicides can be beneficial when used on susceptible varieties.",
+      "Apply a foliar fungicide early in the season if rust is bound to spread rapidly due to the weather conditions.",
+      "Numerous fungicides are available for rust control. Products containing mancozeb, pyraclostrobin, pyraclostrobin + metconazole, pyraclostrobin + fluxapyroxad, azoxystrobin + propiconazole, trifloxystrobin + prothioconazole can be used to control the disease.",
+      "An example of treatment could be: Spraying of mancozeb @ 2.5 g/l as soon as pustules appear and repeat at 10 days interval till flowering."
+    ],
+    "Preventive Measures": [
+      "Plant resistant varieties available locally.",
+      "Plant early to avoid optimal conditions for infection.",
+      "Use shorter season varieties that mature earlier.",
+      "Monitor your crop regularly for signs of the disease, even more so during overcast weather.",
+      "Ensure balanced fertilization with split applications of nitrogen.",
+      "Plan a crop rotation with non-susceptible crops."
+    ],
+    "Source": "Plantix",
+    "Url": [
+      "https://plantix.net/en/library/plant-diseases/100082/common-rust-of-maize/"
+    ]
+  },
+  "Gray Leaf Spot on Corn:": {
+    "Treatment Options": [
+      "Disease management tactics include using resistant corn hybrids, conventional tillage where appropriate, and crop rotation.",
+      "Foliar fungicides can be effective if economically warranted.",
+      "Typically they are only profitable on susceptible inbreds or susceptible hybrids under a combination of high risk conditions with high yield potential, prolonged humid conditions, and evidence of disease development."
+    ],
+    "Preventive Measures": [
+      "Choose corn hybrids that are resistant or have moderate resistance to Gray Leaf Spot.",
+      "Rotate crops to disrupt the life cycle of the fungus and reduce the risk of infection in consecutive growing seasons.",
+      "Implement appropriate tillage practices to manage residue and reduce the survival of the fungus in crop debris.",
+      "Be vigilant in monitoring weather conditions, especially during periods of prolonged humidity, to assess the risk of disease development.",
+      "Optimize plant spacing to allow for better air circulation, reducing humidity around the plants.",
+      "Minimize wetting of foliage by avoiding overhead irrigation, which can create a conducive environment for fungal growth.",
+      "Regularly scout for symptoms and take immediate action if Gray Leaf Spot is detected to prevent further spread.",
+      "Maintain balanced nutrient levels, avoiding excessive nitrogen fertilization which can make plants more susceptible to diseases."
+    ],
+    "Source": "University of Minnesota Extension",
+    "Url": [
+      "https://extension.umn.edu/corn-pest-management/gray-leaf-spot-corn"
+    ]
+  }
+}

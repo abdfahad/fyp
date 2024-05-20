@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Product | Detect Leaf Disease</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles2.css' %}" />
+  </head>
+  <body>
+    
+    <div class="navbar">
+      <div class="navbar-brand"><a href="/">Detect Leaf Disease</a></div>
+      <div class="navbar-links">
+        <!-- <p class="">Want to add your own medicine?</p> -->
+        <button class="btn btn-logout">Logout</button>
+      </div>
+    </div>
+    <div class="main-container">
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">Add Product</h1>
+        <p class="header-description">
+          Add your new products to expand your inventory! 📦✨
+        </p>
+      </header>
+      <div class="left-column">
+        <form id="add-product-form" onsubmit="addProduct(event)">
+          <select name="disease">
+            <option>Select Disease</option>
+            {% for disease in diseases %}
+            <option value="{{ disease }}">{{ disease }}</option>
+            {% endfor %}
+          </select>
+          <input type="text" name="name" placeholder="Product Name" required />
+          <input
+            type="url"
+            name="link"
+            class="url"
+            placeholder="Product Link"
+            required
+          />
+          <button type="submit">Add Product</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <footer>
+      <div>
+        <p>
+          This website represents the Final Year Project (FYP) completed by A.R.A. Fahad, Afaq Ahmad and Khizar Ahmad, under the supervision of Dr. Muhammad Nawaz for the session 2020-2024 as part of the Bachelor of Computer Science (BCS) program.  
+        </p>
+      </div>
+    </footer>
+    {% load static %}
+    <script src="{% static 'script2.js' %}"></script>
+  </body>
+</html>

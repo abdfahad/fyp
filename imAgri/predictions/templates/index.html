@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <title>Detect Leaf Disease</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="wrapper-nav">
+        <div class="navbar-brand"><a href="/">Detect Leaf Disease</a></div>
+        <div class="navbar-links">
+          <p class="">Want to add your own medicine?</p>
+          <a href="/organizations/login" class="btn btn-signup">Login</a>
+          <a href="/organizations/register" class="btn btn-signin">Register</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-container">
+      <div id="topPlants">
+        <div>Supported Plants and Diseases:</div>
+        {% for disease in diseases %}
+        <span>{{disease}}</span>
+            {% endfor %}
+      </div>
+
+      <div class="container">
+        <div class="left-column">
+          <div
+            id="imageBox"
+            onclick="document.getElementById('imageInput').click();"
+          >
+            <input
+              type="file"
+              id="imageInput"
+              accept="image/*"
+              onchange="displayImage(event)"
+            />
+            <img id="selectedImage" src="#" alt="" style="display: none" />
+            <div id="addImageText">+ Add image</div>
+          </div>
+          <button id="submitButton">Submit</button>
+        </div>
+        <div class="loader-box">
+          <div class="spinner">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-loader"
+            >
+              <line x1="12" x2="12" y1="2" y2="6" />
+              <line x1="12" x2="12" y1="18" y2="22" />
+              <line x1="4.93" x2="7.76" y1="4.93" y2="7.76" />
+              <line x1="16.24" x2="19.07" y1="16.24" y2="19.07" />
+              <line x1="2" x2="6" y1="12" y2="12" />
+              <line x1="18" x2="22" y1="12" y2="12" />
+              <line x1="4.93" x2="7.76" y1="19.07" y2="16.24" />
+              <line x1="16.24" x2="19.07" y1="7.76" y2="4.93" />
+            </svg>
+          </div>
+        </div>
+        <div class="right-column" id="rightColumn">
+          <div id="results"></div>
+          <div class="treatment" id="treatment"></div>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <p>
+            This website represents the Final Year Project (FYP) completed by A.R.A. Fahad, Afaq Ahmad and Khizar Ahmad, under the supervision of Dr. Muhammad Nawaz for the session 2020-2024 as part of the Bachelor of Computer Science (BCS) program. 
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    {% load static %}
+    <script src="{% static 'script.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Detect Leaf Disease</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles2.css' %}" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-brand"><a href="/">Detect Leaf Disease</a></div>
+      <div class="navbar-links">
+        <p class=""
+          >Want to add your own medicine?</p
+        >
+        <a href="http://127.0.0.1:8000/organizations/login/" class="btn btn-signup">Login</a>
+        <a href="http://127.0.0.1:8000/organizations/register/" class="btn btn-signin">Register</a>
+      </div>
+    </div>
+    <div class="main-container">
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">Login</h1>
+        <p class="header-description">Welcome back! 😊👋</p>
+      </header>
+      <div class="left-column">
+        <form onsubmit="login(event)" id="login-form">
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="password" name="password" placeholder="Password" required />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+      <span class="linker"
+        >Don't have an account? <a href="http://127.0.0.1:8000/organizations/register/">Sign Up</a></span
+      >
+    </div>
+    </div>
+    <footer>
+      <div>
+        <p>
+          This website represents the Final Year Project (FYP) completed by A.R.A. Fahad, Afaq Ahmad and Khizar Ahmad, under the supervision of Dr. Muhammad Nawaz for the session 2020-2024 as part of the Bachelor of Computer Science (BCS) program. 
+        </p>
+      </div>
+    </footer>
+    {% load static %}
+    <script src="{% static 'script2.js' %}"></script>
+  </body>
+</html>
